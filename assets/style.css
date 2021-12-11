@@ -425,37 +425,37 @@ body {
 
 @font-face {
   font-family: 'Circular';
-  src: url("../Shotput - Fulfillment and Logistics_files/circularstd-book.woff") format("woff");
+  src: url("../assets/circularstd-book.woff") format("woff");
   font-weight: 200;
   font-style: normal; }
 
 @font-face {
   font-family: 'Circular';
-  src: url("../Shotput - Fulfillment and Logistics_files/circularstd-bookitalic.woff") format("woff");
+  src: url("../assets/circularstd-bookitalic.woff") format("woff");
   font-weight: 200;
   font-style: italic; }
 
 @font-face {
   font-family: 'Circular';
-  src: url("../Shotput - Fulfillment and Logistics_files/circularstd-bold.woff") format("woff");
+  src: url("../assets/circularstd-bold.woff") format("woff");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: 'Circular';
-  src: url("../Shotput - Fulfillment and Logistics_files/circularstd-bolditalic.woff") format("woff");
+  src: url("../assets/circularstd-bolditalic.woff") format("woff");
   font-weight: 400;
   font-style: italic; }
 
 @font-face {
   font-family: 'Circular';
-  src: url("../Shotput - Fulfillment and Logistics_files/circularstd-black.woff") format("woff");
+  src: url("../assets/circularstd-black.woff") format("woff");
   font-weight: 700;
   font-style: normal; }
 
 @font-face {
   font-family: 'Circular';
-  src: url("../Shotput - Fulfillment and Logistics_files/circularstd-blackitalic.woff") format("woff");
+  src: url("../assets/circularstd-blackitalic.woff") format("woff");
   font-weight: 700;
   font-style: italic; }
 
@@ -1601,21 +1601,21 @@ section.panel {
       background-size: cover;
       background-position-x: 50%; }
     .landing__nascar .customer-panel.hastings .customer-bg {
-      background-image: url("../Shotput - Fulfillment and Logistics_files/3731051754_ca06079fc5_o.jpeg"); 
+      background-image: url("../assets/3731051754_ca06079fc5_o.jpeg"); 
 }
     .landing__nascar .customer-panel.bharat .customer-bg {
-      background-image: url("../Shotput - Fulfillment and Logistics_files/dolphin - reef.jpeg"); }
+      background-image: url("../assets/dolphin - reef.jpeg"); }
     .landing__nascar .customer-panel.red-bull .customer-bg {
-      background-image: url("../Shotput - Fulfillment and Logistics_files/3731051754_ca06079fc5_o.jpeg"); 
+      background-image: url("../assets/3731051754_ca06079fc5_o.jpeg"); 
      }
     .landing__nascar .customer-panel.red-bull img {
        top: 23%;
      }
     .landing__nascar .customer-panel.banana .customer-bg {
-      background-image: url("../Shotput - Fulfillment and Logistics_files/sharks.jpeg"); 
+      background-image: url("../assets/sharks.jpeg"); 
        }
     .landing__nascar .customer-panel.banana img { }
-    .landing__nascar .customer-panel.hidrate .customer-bg { background-image: url("../Shotput - Fulfillment and Logistics_files/hidrate.jpg"); }
+    .landing__nascar .customer-panel.hidrate .customer-bg { background-image: url("../assets/hidrate.jpg"); }
 
 .landing__apis {
   color: #FFFFFF;
@@ -1632,7 +1632,7 @@ section.panel {
   .landing__apis .laptop-demo {
     height: 100%; }
     .landing__apis .laptop-demo img {
-    background-image: url("../Shotput - Fulfillment and Logistics_files/yujin-cart-carbonclick.gif");
+    background-image: url("../assets/yujin-cart-carbonclick.gif");
     background-repeat: no-repeat;
     background-position: top 40% right 0%;
     background-size: 87%;
@@ -1733,7 +1733,7 @@ section.panel {
     height: 100vh;
     width: 100vw;
     z-index: -1;
-    background-image: url("../Shotput - Fulfillment and Logistics_files/freight.jpeg");
+    background-image: url("../assets/freight.jpeg");
     background-size: cover; }
 
 .business__solution {
@@ -1795,7 +1795,7 @@ section.panel {
     height: 100vh;
     width: 100vw;
     z-index: -1;
-    background-image: url("../Shotput - Fulfillment and Logistics_files/warehouse.jpeg");
+    background-image: url("../assets/warehouse.jpeg");
     background-size: cover; }
 
 .enterprise__solution {
@@ -1861,7 +1861,7 @@ section.panel {
     height: 100vh;
     width: 100vw;
     z-index: -1;
-    background-image: url("../Shotput - Fulfillment and Logistics_files/city.jpeg");
+    background-image: url("../assets/city.jpeg");
     background-size: cover; }
 
 .products__dashboard {
@@ -2063,7 +2063,7 @@ section.panel {
     height: 100vh;
     width: 100vw;
     z-index: -1;
-    background-image: url("../Shotput - Fulfillment and Logistics_files/box-packing.png");
+    background-image: url("../assets/box-packing.png");
     background-size: cover;
     background-repeat: no-repeat; }
 

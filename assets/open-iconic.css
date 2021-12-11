@@ -1,12 +1,12 @@
 
 @font-face {
   font-family: 'Icons';
-  src: url('../Shotput - Fulfillment and Logistics_files/open-iconic.eot');
-  src: url('../Shotput - Fulfillment and Logistics_files/open-iconic.eot#iconic-sm') format('embedded-opentype'), 
-  url('../Shotput - Fulfillment and Logistics_files/open-iconic.woff') format('woff'), 
-  url('../Shotput - Fulfillment and Logistics_files/open-iconic.ttf') format('truetype'), 
-  url('../Shotput - Fulfillment and Logistics_files/open-iconic.otf') format('opentype'), 
-  url('../Shotput - Fulfillment and Logistics_files/open-iconic.svg#iconic-sm') format('svg');
+  src: url('../assets/open-iconic.eot');
+  src: url('../assets/open-iconic.eot#iconic-sm') format('embedded-opentype'), 
+  url('../assets/open-iconic.woff') format('woff'), 
+  url('../assets/open-iconic.ttf') format('truetype'), 
+  url('../assets/open-iconic.otf') format('opentype'), 
+  url('../assets/open-iconic.svg#iconic-sm') format('svg');
   font-weight: normal;
   font-style: normal;
 }
