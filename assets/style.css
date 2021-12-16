@@ -397,7 +397,7 @@ a:hover {
   opacity: 1; }
 
 body {
-  background-color: #001A3D;
+  background-color: #000000;
   color: #26282A; }
 
 .pull-right {
@@ -537,37 +537,44 @@ p {
   border: 1px solid #FFFFFF;
   color: #FFFFFF; }
   .btn.btn--white:hover {
-    background-color: #FFFFFF;
-    color: #0086FF; }
+    background-color: #000;
+    color: #FFF; }
   .btn.btn--white.inverse {
     background-color: #FFFFFF;
-    color: #0086FF; }
+    border-color: #000;
+    color: #000; }
+  .btn.btn--white.inverse:hover {
+    background-color: #000;
+    border-color: #FFF;
+    color: #FFF; }
 
 .btn.btn--default {
   color: #323539;
   border: 1px solid #323539; }
   .btn.btn--default:hover {
-    background-color: #323539;
+    background-color: #000;
     color: #FFFFFF; }
   .btn.btn--default.inverse {
     border: 1px solid #FFFFFF;
-    color: #FFFFFF; }
+    border-color: #000;
+    color: #000; }
     .btn.btn--default.inverse:hover {
-      background-color: #FFFFFF;
-      color: #0086FF; }
+      background-color: #000;
+      color: #FFF; }
 
 .btn.btn--primary {
-  color: #0086FF;
-  border: 1px solid #0086FF; }
+  color: #000;
+  border: 1px solid #000; }
   .btn.btn--primary:hover {
-    background-color: #0086FF;
+    background-color: #000;
     color: #FFFFFF; }
   .btn.btn--primary.inverse {
-    background-color: #0086FF;
+    background-color: #000;
     color: #FFFFFF; }
     .btn.btn--primary.inverse:hover {
-      background-color: #0D67E8;
-      color: #FFFFFF; }
+      border: 1px solid #000;
+      background-color: #FFF;
+      color: #000; }
 
 .btn.btn--success {
   border: 1px solid #08E57A; }
@@ -1314,7 +1321,7 @@ input {
   padding: 10px 12px;
   border: none;
   border: 2px solid #f1f5f9;
-  background-color: #F8FAFC;
+  background-color: #fff;
   border-bottom: 2px solid #e6edf4;
   width: 100%;
   min-height: 40px;
@@ -1330,6 +1337,7 @@ input {
     opacity: 0.9; }
 
 .hero-video {
+  opacity: 0.4;
   position: absolute;
   top: 0;
   left: 0;
@@ -1388,7 +1396,7 @@ section.panel {
   margin-right: 4px; }
 
 .hr-blue {
-  border-top: 1px solid #0086FF; }
+  border-top: 1px solid #000; }
 
 .global__header, .global__header--alt {
   position: absolute;
@@ -1440,7 +1448,7 @@ section.panel {
 .global__footer {
   padding-top: 40px;
   padding-bottom: 72px;
-  background-color: #001A3D;
+  background-color: #000000;
   color: #FFFFFF; }
   .global__footer h4 {
     margin-top: 5px;
@@ -1522,14 +1530,14 @@ section.panel {
       height: 100vh; } }
 
 .landing__solution {
-  color: #FFFFFF; }
+  color: #000; }
   .landing__solution p {
     font-size: 14px;
     font-weight: 100; }
 
 .landing__solution, .landing__apis, .landing__for {
-  background: #0063EC;
-  padding: 80px 0; }
+  background: #fffffe;
+  padding: 0px 0; }
   .landing__solution .solution-point h4, .landing__apis .solution-point h4, .landing__for .solution-point h4 {
     margin-bottom: 6px;
     margin-top: 12px; }
@@ -1549,7 +1557,7 @@ section.panel {
         margin-top: 0; }
     .landing__solution .left-point, .landing__apis .left-point, .landing__for .left-point {
       text-align: right;
-      border-right: 1px solid #0086FF; }
+      border-right: 1px solid #000; }
     .landing__solution .right-point, .landing__apis .right-point, .landing__for .right-point {
       text-align: left; }
     .landing__solution .left-column, .landing__solution .right-column, .landing__solution .laptop-demo, .landing__apis .left-column, .landing__apis .right-column, .landing__apis .laptop-demo, .landing__for .left-column, .landing__for .right-column, .landing__for .laptop-demo {
@@ -1560,8 +1568,8 @@ section.panel {
       transform: translateY(-50%); } }
 
 .landing__for {
-  background-color: #0054CA;
-  color: #FFFFFF; }
+  background-color: #FFF;
+  color: #000; }
   .landing__for .left-point, .landing__for .right-point {
     text-align: center;
     padding: 0 64px; }
@@ -1574,7 +1582,7 @@ section.panel {
       padding: 0 12px; } }
 
 .landing__nascar {
-  background: #0054CA; }
+  background: #FFF; }
   .landing__nascar .customer-panel {
     float: left;
     height: 100%;
@@ -1618,8 +1626,8 @@ section.panel {
     .landing__nascar .customer-panel.hidrate .customer-bg { background-image: url("../assets/hidrate.jpg"); }
 
 .landing__apis {
-  color: #FFFFFF;
-  background-color: #0060e5; }
+  color: #000;
+  background-color: #fff; }
   .landing__apis h1 {
     margin-bottom: 40px; }
   .landing__apis button {
@@ -1646,7 +1654,7 @@ section.panel {
         display: none; } }
 
 .landing__learn {
-  background-color: #F8FAFC;
+  background-color: #fff;
   color: #5D6268;
   text-align: center; }
   .landing__learn h1 {
@@ -1656,7 +1664,7 @@ section.panel {
     margin-top: 40px; }
   .landing__learn a {
     text-decoration: underline;
-    color: #0086FF; }
+    color: #000; }
   .landing__learn .cards {
     margin-top: 40px;
     height: 100%;
@@ -1696,8 +1704,8 @@ section.panel {
       height: 15%; }
 
 .landing__start {
-  background: #0054CA;
-  color: #FFFFFF;
+  background: #FFF;
+  color: #000;
   text-align: center; }
   .landing__start .content {
     padding: 120px 12px; }
@@ -1761,7 +1769,7 @@ section.panel {
         display: none; } }
 
 .business__values {
-  background-color: #F8FAFC;
+  background-color: #fff;
   z-index: 100;
   text-align: center; }
   @media (min-width: 767px) {
@@ -1823,7 +1831,7 @@ section.panel {
         display: none; } }
 
 .enterprise__values {
-  background-color: #F8FAFC;
+  background-color: #fff;
   z-index: 100;
   text-align: center; }
   @media (min-width: 767px) {
@@ -1890,7 +1898,7 @@ section.panel {
 
 .products__apis {
   color: #FFFFFF;
-  background-color: #0060e5; }
+  background-color: #fff; }
   .products__apis h1 {
     margin-bottom: 40px; }
   .products__apis button {
@@ -2069,7 +2077,7 @@ section.panel {
 
 .api__solution {
   color: #FFFFFF;
-  background: #0063EC;
+  background: #fffffe;
   padding: 80px 0; }
   .api__solution .right-column button {
     margin-top: 24px; }
@@ -2096,7 +2104,7 @@ section.panel {
         margin-bottom: 0; }
     .api__solution .left-point {
       text-align: right;
-      border-right: 1px solid #0086FF; }
+      border-right: 1px solid #000; }
     .api__solution .right-point {
       text-align: left; }
     .api__solution .left-column, .api__solution .right-column, .api__solution .laptop-demo {
@@ -2107,7 +2115,7 @@ section.panel {
       transform: translateY(-50%); } }
 
 .faq__cta {
-  background: #0054CA;
+  background: #FFF;
   padding: 120px 12px; }
   .faq__cta h1 {
     color: #FFFFFF;
@@ -2123,7 +2131,7 @@ section.panel {
     font-size: 14px; }
 
 .legal__cta {
-  background: #001A3D;
+  background: #000000;
   padding: 120px 12px; }
   .legal__cta h1 {
     color: #FFFFFF;
